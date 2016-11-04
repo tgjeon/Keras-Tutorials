@@ -4,8 +4,7 @@ Introduction to deep learning based on Keras framework. These tutorials are dire
 
 *Topics*
 
-* Simple Multiplication
-* Linear Regression
+* Linear Regression ([code](), [notebook]())
 * Logistic Regression
 * Feedforward Neural Network (Multilayer Perceptron)
 * Deep Feedforward Neural Network (Multilayer Perceptron with 2 Hidden Layers O.o)
