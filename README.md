@@ -15,6 +15,11 @@ Introduction to deep learning based on Keras framework. These tutorials are dire
 * TensorBoard
 * Save and restore net
 
+*Note*
+* Deep Learning Glossary (for Korean)
+: This documentation is translated from blog post on wild.ml (with author's permission)
+
 *Dependencies*
 * Keras
 * TensorFlow
+
