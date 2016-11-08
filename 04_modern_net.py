@@ -1,5 +1,5 @@
 from keras.models import Sequential
-from keras.layers import Dense, Activation
+from keras.layers import Dense, Activation, Dropout
 from keras.optimizers import RMSprop
 from keras.datasets import mnist
 from keras.utils import np_utils
@@ -23,8 +23,10 @@ Y_test = np_utils.to_categorical(y_test, nb_classes)
 model = Sequential()
 model.add(Dense(output_dim=625, input_dim=784, init='normal'))
 model.add(Activation('relu'))
+model.add(Dropout(0.8))
 model.add(Dense(output_dim=625, input_dim=625, init='normal'))
 model.add(Activation('relu'))
+model.add(Dropout(0.5))
 model.add(Dense(output_dim=10, input_dim=625, init='normal'))
 model.add(Activation('softmax'))
 
