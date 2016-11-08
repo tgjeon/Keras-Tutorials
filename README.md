@@ -5,9 +5,9 @@ Introduction to deep learning based on Keras framework. These tutorials are dire
 *Topics*
 
 * Linear Regression ([code](https://github.com/tgjeon/Keras-Tutorials/blob/master/01_linear_regression.py), [notebook](https://github.com/tgjeon/Keras-Tutorials/blob/master/01_linear_regression.ipynb))
-* Logistic Regression
-* Feedforward Neural Network (Multilayer Perceptron)
-* Deep Feedforward Neural Network (Multilayer Perceptron with 2 Hidden Layers O.o)
+* Logistic Regression ([code](https://github.com/tgjeon/Keras-Tutorials/blob/master/02_logistic_regression.py))
+* Feedforward Neural Network (Multilayer Perceptron) ([code](https://github.com/tgjeon/Keras-Tutorials/blob/master/03_net.py))
+* Deep Feedforward Neural Network (Multilayer Perceptron with 2 Hidden Layers O.o) ([code](https://github.com/tgjeon/Keras-Tutorials/blob/master/04_modern_net.py))
 * Convolutional Neural Network
 * Denoising Autoencoder
 * Recurrent Neural Network (LSTM)
@@ -16,8 +16,8 @@ Introduction to deep learning based on Keras framework. These tutorials are dire
 * Save and restore net
 
 *Note*
-* Deep Learning Glossary (for Korean)
-: This documentation is translated from blog post on wild.ml (with author's permission)
+* [Deep Learning Glossary](https://github.com/tgjeon/Keras-Tutorials/blob/master/DeepLearningGlossary.md) (for Korean)
+: This documentation is translated from blog post on wildml.com (with author's permission)
 
 *Dependencies*
 * Keras
