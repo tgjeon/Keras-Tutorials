@@ -19,7 +19,7 @@ X_test /= 255
 Y_train = np_utils.to_categorical(y_train, nb_classes)
 Y_test = np_utils.to_categorical(y_test, nb_classes)
 
-# Logistic regression model
+# Deep Multilayer Perceptron model
 model = Sequential()
 model.add(Dense(output_dim=625, input_dim=784, init='normal'))
 model.add(Activation('relu'))
