@@ -2,7 +2,7 @@
 
 Introduction to deep learning based on Keras framework. These tutorials are direct ports of nlintz's [TensorFlow Tutorials](https://github.com/nlintz/TensorFlow-Tutorials).
 
-*Topics*
+*Basic Topics (from nlint'z github)*
 
 * Linear Regression ([code](https://github.com/tgjeon/Keras-Tutorials/blob/master/01_linear_regression.py), [notebook](https://github.com/tgjeon/Keras-Tutorials/blob/master/01_linear_regression.ipynb))
 * Logistic Regression ([code](https://github.com/tgjeon/Keras-Tutorials/blob/master/02_logistic_regression.py))
@@ -14,6 +14,16 @@ Introduction to deep learning based on Keras framework. These tutorials are dire
 * Word2vec
 * TensorBoard
 * Save and restore net
+
+*Advanced Topics*
+
+* Image classification
+* Object detection
+* Super-Resolution
+* Image captioning
+* Semantic segmentation
+
+
 
 *Note*
 * [Deep Learning Glossary](https://github.com/tgjeon/Keras-Tutorials/blob/master/DeepLearningGlossary.md) (for Korean)
