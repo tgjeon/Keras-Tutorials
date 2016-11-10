@@ -34,10 +34,8 @@ else:
     input_shape = (img_rows, img_cols, 1)
 
 
-X_train = X_train.astype('float32')
-X_test = X_test.astype('float32')
-X_train /= 255
-X_test /= 255
+X_train = X_train.astype('float32') / 255.
+X_test = X_test.astype('float32') / 255.
 Y_train = np_utils.to_categorical(y_train, nb_classes)
 Y_test = np_utils.to_categorical(y_test, nb_classes)
 
