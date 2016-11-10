@@ -5,10 +5,10 @@ Introduction to deep learning based on Keras framework. These tutorials are dire
 *Basic Topics (from nlint'z github)*
 
 * Linear Regression ([code](https://github.com/tgjeon/Keras-Tutorials/blob/master/01_linear_regression.py), [notebook](https://github.com/tgjeon/Keras-Tutorials/blob/master/01_linear_regression.ipynb))
-* Logistic Regression ([code](https://github.com/tgjeon/Keras-Tutorials/blob/master/02_logistic_regression.py))
-* Feedforward Neural Network (Multilayer Perceptron) ([code](https://github.com/tgjeon/Keras-Tutorials/blob/master/03_net.py))
-* Deep Feedforward Neural Network (Multilayer Perceptron with 2 Hidden Layers O.o) ([code](https://github.com/tgjeon/Keras-Tutorials/blob/master/04_modern_net.py))
-* Convolutional Neural Network ([code](https://github.com/tgjeon/Keras-Tutorials/blob/master/05_convolutional_net.py))
+* Logistic Regression ([code](https://github.com/tgjeon/Keras-Tutorials/blob/master/02_logistic_regression.py), [notebook](https://github.com/tgjeon/Keras-Tutorials/blob/master/02_logistic_regression.ipynb))
+* Feedforward Neural Network (Multilayer Perceptron) ([code](https://github.com/tgjeon/Keras-Tutorials/blob/master/03_net.py), [notebook](https://github.com/tgjeon/Keras-Tutorials/blob/master/03_net.ipynb))
+* Deep Feedforward Neural Network (Multilayer Perceptron with 2 Hidden Layers O.o) ([code](https://github.com/tgjeon/Keras-Tutorials/blob/master/04_modern_net.py), [notebook](https://github.com/tgjeon/Keras-Tutorials/blob/master/04_modern_net.ipynb))
+* Convolutional Neural Network ([code](https://github.com/tgjeon/Keras-Tutorials/blob/master/05_convolutional_net.py), [notebook](https://github.com/tgjeon/Keras-Tutorials/blob/master/05_convolutional_net.ipynb))
 * Denoising Autoencoder
 * Recurrent Neural Network (LSTM)
 * Word2vec
