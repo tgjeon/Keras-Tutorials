@@ -39,6 +39,7 @@ decoded = Dense(nb_visible, activation='sigmoid')(encoded)
 
 autoencoder = Model(input=input_img, output=decoded)
 autoencoder.compile(optimizer='adadelta', loss='binary_crossentropy')
+autoencoder.summary()
 
 # Train
 autoencoder.fit(x_train_noisy, x_train,
