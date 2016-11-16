@@ -10,7 +10,7 @@ Introduction to deep learning based on Keras framework. These tutorials are dire
 * Deep Feedforward Neural Network (Multilayer Perceptron with 2 Hidden Layers O.o) ([code](https://github.com/tgjeon/Keras-Tutorials/blob/master/04_modern_net.py), [notebook](https://github.com/tgjeon/Keras-Tutorials/blob/master/04_modern_net.ipynb))
 * Convolutional Neural Network ([code](https://github.com/tgjeon/Keras-Tutorials/blob/master/05_convolutional_net.py), [notebook](https://github.com/tgjeon/Keras-Tutorials/blob/master/05_convolutional_net.ipynb))
 * Denoising Autoencoder ([code](https://github.com/tgjeon/Keras-Tutorials/blob/master/06_autoencoder.py), [notebook](https://github.com/tgjeon/Keras-Tutorials/blob/master/06_autoencoder.ipynb))
-* Recurrent Neural Network (LSTM)
+* Recurrent Neural Network (LSTM) ([code](https://github.com/tgjeon/Keras-Tutorials/blob/master/07_lstm.py), [notebook](https://github.com/tgjeon/Keras-Tutorials/blob/master/07_lstm.ipynb))
 * Word2vec
 * TensorBoard
 * Save and restore net
