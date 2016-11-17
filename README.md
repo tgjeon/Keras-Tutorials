@@ -13,7 +13,7 @@ Introduction to deep learning based on Keras framework. These tutorials are dire
 * Recurrent Neural Network (LSTM) ([code](https://github.com/tgjeon/Keras-Tutorials/blob/master/07_lstm.py), [notebook](https://github.com/tgjeon/Keras-Tutorials/blob/master/07_lstm.ipynb))
 * Word2vec
 * TensorBoard ([code](https://github.com/tgjeon/Keras-Tutorials/blob/master/09_tensorboard.py), [notebook](https://github.com/tgjeon/Keras-Tutorials/blob/master/09_tensorboard.ipynb))
-* Save and restore net
+* Save and restore net ([code](https://github.com/tgjeon/Keras-Tutorials/blob/master/10_save_restore_net.py), [notebook](https://github.com/tgjeon/Keras-Tutorials/blob/master/10_save_restore_net.ipynb))
 
 *Advanced Topics*
 
