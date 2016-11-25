@@ -271,9 +271,18 @@ RNN은 히든 스테이트, 또는 메모리를 통해 순차적으로 반응하
 
 ### **RECURSIVE NEURAL NETWORK**
 
+재귀 신경망은 RNN을 트리 구조로 일반화 한 것입니다. RNN과 마찬가지로 재귀 신경망은 backpropagation을 사용하여 end-to-end로 학습시킬 수 있으며, 각 재귀에서 동일한 가중치가 적용됩니다. 최적화 문제의 일부로 트리 구조를 학습하는 것이 가능하지만 자연어 처리의 구문 분석 트리와 같이 미리 정의된 구조를 갖는 문제에 재귀 신경망을 적용하는 경우가 종종 있습니다.
+
+
 ### **RELU**
 
+Rectified linear unit의 약자로 DNN에서 활성화 함수로 사용됩니다. f(x) = max(0, x)로 정의되며, tanh와 같은 활성화 함수들에 비해 활성화 결과가 쉽게 0으로 설정되기 때문에 희소성이 높고 vanishing gradient 문제로 인한 피해가 적다는 장점이 있습니다. CNN에서 가장 일반적으로 사용되는 활성화 함수이며, Leaky ReLU, Parametric ReLU 또는 Softplus와 같은 여러 변형이 있습니다.
+
+
 ### **RESNET**
+
+Deep Residual Networks는 ILSVRC 2015 대회에서 우승한 모델입니다. 보다 쉬운 학습을 위해 shortcut 연결을 도입하여 깊은 망에 대한 효과를 극대화하였습니다. 기존 모델이 weighted sum 및 활성화 함수를 거쳐 결과값 H(x)를 출력하며 학습을 통해 최적의 H(x)를 얻는 것이 목표였다면, ResNet은 shortcut 연결을 통하여 H(x) - x의 결과를 최적화 시키는 것이 목표입니다. 최적점에서는 H(x) = x 이므로 학습에 대한 목표가 뚜렸하며 H(x) - x가 0으로 수렴하는 작은 움직임을 학습한다고 하여 Residual mapping이라는 용어를 사용합니다. 이러한 shortcut 연결은 highway 레이어와 비슷하지만, 데이터에 독립적이므로 추가 매개 변수나 학습 과정이 복잡하지 않습니다. ResNet은 ImageNet 테스트 셋에서 3.57%의 오류율을 달성하였습니다.
+
 
 ### **RMSPROP**
 
