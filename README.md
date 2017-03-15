@@ -30,6 +30,6 @@ Introduction to deep learning based on Keras framework. These tutorials are dire
 : This documentation is translated from blog post on wildml.com (with author's permission)
 
 *Dependencies*
-* [Keras](https://github.com/fchollet/keras)
-* [TensorFlow](https://github.com/tensorflow/tensorflow)
+* [Keras v1.2.1](https://github.com/fchollet/keras)
+* [TensorFlow v0.12](https://github.com/tensorflow/tensorflow)
 
